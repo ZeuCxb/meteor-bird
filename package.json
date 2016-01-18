@@ -1,0 +1,22 @@
+{
+  "name": "meteor-b",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/ZeuCxb/meteor-bird.svg?branch=master)](https://travis-ci.org/ZeuCxb/meteor-bird)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gagarin ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeuCxb/meteor-bird.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeuCxb/meteor-bird/issues"
+  },
+  "homepage": "https://github.com/ZeuCxb/meteor-bird#readme"
+}

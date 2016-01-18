@@ -4,7 +4,7 @@ node_js:
   - '4.1'
 install:
   - "curl https://install.meteor.com | /bin/sh"
-  - "sudo npm install -g gagarin"
+  - "npm install -g gagarin"
 script:
   - "meteor"
   - "gagarin tests/"

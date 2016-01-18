@@ -1,13 +1,7 @@
 language: node_js
 node_js:
-  - '5.3'
-  - '4.1'
-sudo: true
-install:
-  - "curl https://install.meteor.com | /bin/sh"
-  - "npm install -g gagarin"
-script:
-  - "mrt"
-  - "gagarin"
-services:
-  - "mongodb"
+  - "0.10"
+before_install:
+  - "curl -L http://git.io/3l-rRA | /bin/sh"
+env:
+  - LAIKA_OPTIONS="-t 5000"

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0919a28-2c96-40e5-aadf-baa5cc7534d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smart.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/client/client.js" afterPath="$PROJECT_DIR$/public:resources/client/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/server/server.js" afterPath="$PROJECT_DIR$/public:resources/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="meteor-b.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +46,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75514877">
+            <state vertical-scroll-proportion="-13.75">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public:resources/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public:resources/client/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48806942">
+              <caret line="15" column="27" selection-start-line="0" selection-start-column="2" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <marker date="1453129591000" expanded="true" signature="65:800" placeholder="{...}" />
+                <marker date="1453129591000" expanded="true" signature="199:366" placeholder="{...}" />
+                <marker date="1453129591000" expanded="true" signature="285:356" placeholder="{...}" />
+                <marker date="1453129591000" expanded="true" signature="453:580" placeholder="{...}" />
+                <marker date="1453129591000" expanded="true" signature="500:541" placeholder="{...}" />
+                <marker date="1453129591000" expanded="true" signature="697:794" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +179,10 @@
               <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gagarin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -160,11 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gagarin" />
+              <option name="myItemId" value="public:resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,6 +228,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public:resources" />
       <recent name="$PROJECT_DIR$/tests/gagarin" />
     </key>
   </component>
@@ -258,9 +289,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -290,29 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86009175">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/client/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4859611">
-          <caret line="15" column="27" selection-start-line="0" selection-start-column="2" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1453129591000" expanded="true" signature="65:800" placeholder="{...}" />
-            <marker date="1453129591000" expanded="true" signature="199:366" placeholder="{...}" />
-            <marker date="1453129591000" expanded="true" signature="285:356" placeholder="{...}" />
-            <marker date="1453129591000" expanded="true" signature="453:580" placeholder="{...}" />
-            <marker date="1453129591000" expanded="true" signature="500:541" placeholder="{...}" />
-            <marker date="1453129591000" expanded="true" signature="697:794" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3887689">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -351,9 +359,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75514877">
+        <state vertical-scroll-proportion="-13.75">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public:resources/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public:resources/client/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48806942">
+          <caret line="15" column="27" selection-start-line="0" selection-start-column="2" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1453129591000" expanded="true" signature="65:800" placeholder="{...}" />
+            <marker date="1453129591000" expanded="true" signature="199:366" placeholder="{...}" />
+            <marker date="1453129591000" expanded="true" signature="285:356" placeholder="{...}" />
+            <marker date="1453129591000" expanded="true" signature="453:580" placeholder="{...}" />
+            <marker date="1453129591000" expanded="true" signature="500:541" placeholder="{...}" />
+            <marker date="1453129591000" expanded="true" signature="697:794" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,19 +1,11 @@
 language: node_js
 node_js:
   - '5.3'
-before_install:
-  #!/bin/sh
-
-  #configuring the system
-  wget https://raw.github.com/arunoda/travis-ci-laika/master/Makefile
-
-  #install meteor
-  curl https://install.meteor.com | /bin/sh
-
-  #installing meteorite
-  npm install -g meteorite
-
-  #installing gagarin
-  npm install -g gagarin
+  - '4.1'
+install:
+  - "curl https://install.meteor.com | /bin/sh"
+  - "meteor update"
+script:
+  - "gagarin tests/"
 services:
-  - mongodb
+  - "mongodb"

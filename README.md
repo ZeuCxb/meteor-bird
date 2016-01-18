@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/ZeuCxb/meteor-bird.svg?branch=master)](https://travis-ci.org/ZeuCxb/meteor-bird)

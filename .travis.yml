@@ -1,6 +1,11 @@
-sudo: required
 language: node_js
 node_js:
-  - "0.10"
-before_install:
-  - "curl -L https://raw.githubusercontent.com/sf-wind/meteor-velocity-travis-ci/master/configure.sh | /bin/sh"
+  - '5.3'
+  - '4.1'
+sudo: true
+install:
+  - "curl https://install.meteor.com | /bin/sh"
+  - "npm install -g gagarin"
+script: "gagarin tests/"
+services:
+  - "mongodb"

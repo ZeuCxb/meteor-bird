@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "gagarin ./tests/"
+    "test": "gagarin"
   },
   "repository": {
     "type": "git",

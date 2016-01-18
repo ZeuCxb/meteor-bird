@@ -6,6 +6,8 @@ sudo: true
 install:
   - "curl https://install.meteor.com | /bin/sh"
   - "npm install -g gagarin"
-script: "gagarin"
+script:
+  - "mrt"
+  - "gagarin"
 services:
   - "mongodb"
